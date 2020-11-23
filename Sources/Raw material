@@ -17,16 +17,16 @@
 •Системна архитектура (System architecture)
 •Организацията на програмите и инфраструктурата, върху която те се изпълняват
 
-•Архитектура на приложението (Application architecture)
+•Архитектура на приложението (Application architecture)  
 •Организация на приложение, подсистема или компонент
 
 ------
 Проектирането(процес на определяне на подсистемите, които съставляват системата и рамката на управление и комуникация) на СА - цикличен и инкрементален процес
 Архитектурните драйвери - най-важните изисквания, които имат общо към създаването на СА. Трябва да ги намерим в началото на проекта, после ще станат по-трудни за промяна с реализацията на проекта, оттам и изменяемост и гъвкавост
 
-Функционлани и нефункционални изисквания
+Функционални и нефункционални изисквания
 •Технически ограничения (Technical Constraints)
-•Ограничения, наложениот бизнеса (Business Constraints)
+•Ограничения, наложени от бизнеса (Business Constraints)
 •Качествениатрибути(Quality Attributes) 
 
 Stakeholders - Заинтересовани лица
@@ -49,8 +49,8 @@ Stakeholders - Заинтересовани лица
 Декомпозиция на модулите –връзките между модулите са от вида “X е под-модул на Y”; 
 Употреба на модулите –връзките между модулите са от вида “X използва Y”
 •Като частен случай на структурата на употребата на модули е структурата на слоевете –когато върху употребата са наложени стриктни правила се обособяват слоеве;
-•Модулите от слой номер N могат да се възползват само от услугите намодулите от слой номер N-1;
-Йерархия на класовете –в терминологията на ООП, модулите се наричат “класове”, а в настоящата структура връзките между класовете са от вида “класът Xнаследява класа Y”и “обекта Xе инстанцияна клас Y”
+•Модулите от слой номер N могат да се възползват само от услугите на модулите от слой номер N-1;
+Йерархия на класовете –в терминологията на ООП, модулите се наричат “класове”, а в настоящата структура връзките между класовете са от вида “класът X наследява класа Y”и “обекта X е инстанция на клас Y” 
 
 ---
 Елементите са компоненти, които се проявяват по време на изпълнението (т.е. основните изчислителни процеси) и средствата за комуникация между процесите
@@ -75,6 +75,17 @@ Stakeholders - Заинтересовани лица
 
 ---------
 Източници:
-[1]доц. Бончев, Б., доц. Димов, А., Лекции по "Софтуерни архитектури", зимен семестър, 2020/2021 
+[1]доц. Бончев, Б., доц. Димов, А., Лекции по "Софтуерни архитектури", зимен семестър, 2020/2021
+[2]https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.at%2Fpin%2F640777853213585024%2F&psig=AOvVaw3QmtRjbXIeOAsBPnL_AFZr&ust=1606214502721000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC_-OS9mO0CFQAAAAAdAAAAABAD
+[3]https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FView_model&psig=AOvVaw1J6lXRzqM8DMD13qV5Wvar&ust=1606221855586000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiziIDZmO0CFQAAAAAdAAAAABAE
+[4]https://www.google.com/url?sa=i&url=https%3A%2F%2Fstratechery.com%2F2013%2Fthe-alleged-13-inch-ipad-and-the-triumph-of-thin-clients-finally%2F&psig=AOvVaw3eZ0G8HR-hcvPATOckGTO6&ust=1606224793167000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOj1wfDjmO0CFQAAAAAdAAAAABAO
+[5]https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.softwaretestingclass.com%2Fwhat-is-difference-between-two-tier-and-three-tier-architecture%2Fthree-tier-architecture%2F&psig=AOvVaw162ClMbTcUVGX5Lzc4QfLv&ust=1606225821793000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDzotLnmO0CFQAAAAAdAAAAABAi
+[6]https://www.google.com/url?sa=i&url=https%3A%2F%2Fro.pinterest.com%2Fpin%2F484207397435294542%2F&psig=AOvVaw3vEjW8Gbl4NQ6Wv8O-zJmF&ust=1606234236121000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjS5oaHme0CFQAAAAAdAAAAABAP
+[7]https://en.wikipedia.org/wiki/Client–server_model
+[8]https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/n-tier#:~:text=An%20N-tier%20architecture%20divides,layer%20has%20a%20specific%20responsibility.&text=A%20traditional%20three-tier%20application,tier%2C%20and%20a%20database%20tier
+[9]Client-Server/N-tier system, http://www.dossier-andreas.net/software_architecture/tiers.html
+[10]Remote Job Entry-Wikipedia, https://en.wikipedia.org/wiki/Remote_job_entry
+
+
 
 
